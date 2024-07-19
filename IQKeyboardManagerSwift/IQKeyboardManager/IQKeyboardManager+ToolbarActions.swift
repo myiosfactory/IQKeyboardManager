@@ -108,7 +108,7 @@ public extension IQKeyboardManager {
     }
 
     /**    previousAction. */
-    @objc internal func previousAction (_ barButton: IQBarButtonItem) {
+    @objc func previousAction (_ barButton: IQBarButtonItem) {
 
         // If user wants to play input Click sound.
         if playInputClicks {
@@ -140,7 +140,7 @@ public extension IQKeyboardManager {
     }
 
     /**    nextAction. */
-    @objc internal func nextAction (_ barButton: IQBarButtonItem) {
+    @objc func nextAction (_ barButton: IQBarButtonItem) {
 
         // If user wants to play input Click sound.
         if playInputClicks {
@@ -172,7 +172,7 @@ public extension IQKeyboardManager {
     }
 
     /**    doneAction. Resigning current textField. */
-    @objc internal func doneAction (_ barButton: IQBarButtonItem) {
+    @objc func doneAction (_ barButton: IQBarButtonItem) {
 
         // If user wants to play input Click sound.
         if playInputClicks {
