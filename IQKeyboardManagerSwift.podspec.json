@@ -7,7 +7,7 @@
     },
     "summary": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView.",
     "homepage": "https://github.com/hackiftekhar/IQKeyboardManager",
-    "ios.deployment_target": "9.0",
+    "ios.deployment_target": "8.0",
     "screenshots": "https://raw.githubusercontent.com/hackiftekhar/IQKeyboardManager/master/Screenshot/IQKeyboardManagerScreenshot.png",
     "license": "MIT",
     "authors": {
