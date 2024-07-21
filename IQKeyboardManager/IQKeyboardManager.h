@@ -356,6 +356,8 @@ NS_EXTENSION_UNAVAILABLE_IOS("Unavailable in extension")
  */
 + (nonnull instancetype)new NS_UNAVAILABLE;
 
--(void)previousAction:(IQBarButtonItem*)barButton;
+-(void)previousAction:(IQBarButtonItem*_Nonnull)barButton;
+-(void)nextAction:(IQBarButtonItem*_Nonnull)barButton;
+-(void)doneAction:(IQBarButtonItem*_Nonnull)barButton;
 
 @end
